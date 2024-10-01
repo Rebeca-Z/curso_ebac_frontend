@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(215, 230, 184);
+}
+
+body > header {
+    background-color: rgb(84, 82, 82);
+    padding: 16px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+header .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: white;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+section h2, 
+.articles article {
+    margin-top: 16px;
+}
+
+section article {
+    background-color: rgb(141, 133, 162);
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(210, 201, 190);
+    background-color: rgb(162, 119, 119);
+}
+
+.articles article a {
+    background-color: darkgrey;
+    color: rgb(3, 3, 139);
+    padding: 8px;
+    display: inline-block;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.articles p {
+    background-color: rgb(177, 244, 244);
+    color: rgb(34, 76, 62);
+}
+.articles article h3 {
+    font-size: 24px;
+}
+
+.articles article header time {
+    background-color: rgb(0, 255, 38);
+    color: deeppink;
+}
